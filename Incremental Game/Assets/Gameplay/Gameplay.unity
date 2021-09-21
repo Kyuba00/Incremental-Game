@@ -180,6 +180,10 @@ MonoBehaviour:
     Type: 0
     Value: Manager
     IsUnlocked: 0
+  - Title: Unlock Director
+    Type: 0
+    Value: Director
+    IsUnlocked: 0
 --- !u!114 &31674060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1470,6 +1474,10 @@ MonoBehaviour:
     UnlockCost: 1000000
     UpgradeCost: 1000000
     Output: 2000000
+  - Name: Director
+    UnlockCost: 100000000
+    UpgradeCost: 100000000
+    Output: 200000000
   ResourcesSprites:
   - {fileID: 21300000, guid: edc5d760e2901d047bfa4d092de934bc, type: 3}
   - {fileID: 21300000, guid: ddef5ba866e9b1044a4179d59f573d99, type: 3}
